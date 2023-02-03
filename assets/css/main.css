@@ -59,7 +59,7 @@ body{
 .contentPopUp__header{
     width: 100%;
     height: 60px;
-    border-bottom: 1px solid #b2b2b2;
+    border-bottom: 1px solid #b2b2b287;
     display: flex;
     justify-content: flex-end;
     padding: 1rem 0;
@@ -98,11 +98,18 @@ body{
     .contentPopUp__header {
         width: 100%;
         height: 54px;
-        border-bottom: 1px solid #b2b2b2;
+        border-bottom: 1px solid #b2b2b287;
         display: flex;
         justify-content: flex-end;
         padding: 0.5rem 0;
         margin: 0 0 1rem 0;
+    }
+
+    .contentVideo__info-title {
+        margin: 1rem 0 0.5rem 0;
+        line-height: 1.3em;
+        font-size: 20px;
+        color: #515151;
     }
 /*  */
 
