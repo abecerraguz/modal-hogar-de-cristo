@@ -1,7 +1,8 @@
 $(function () {
 
     window.onscroll = function(ev) {
-        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+        console.log('Salida --->', window.innerHeight + window.scrollY,'>=',document.body.offsetHeight)
+        if ((window.innerHeight + window.scrollY) >= ((document.body.offsetHeight)/2)) {
             console.log("Estas abajo de la página");
             $('.contentPopUp').addClass('up');
         }else{
